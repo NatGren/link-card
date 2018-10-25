@@ -11,29 +11,36 @@ html {
 
 dt {
   display: inline-block;
-  margin: 0 0 1rem;
+  margin: 0;
+  font-size: .9rem;
 }
 
 dd {
-  margin: 0 0 1rem;
+  margin: 0;
   display: inline-block;
   font-style: italic;
+  font-size: .9rem;
 }
 
 .list {
   border-top: 1px solid #9a816d;
   border-bottom: 1px solid #9a816d;
+  margin: 0 0 1rem;
+}
+
+.listwo {
+  border-top: 1px solid #9a816d;
+  border-bottom: 1px solid #9a816d;
+  margin: 0 0 1rem;
 }
 
 dl dd {
-  display: inline;
   padding: 0 40%;
   float: left;
-  width: 89%
+  width: 88%;
 }
 
 dl dt {
-  display: inline;
   float: left;
   padding: 0 1%;
   width: 8%;
@@ -41,10 +48,6 @@ dl dt {
 
 div {
   text-align: center;
-}
-
-span {
-  display: inline-block;
 }
 
 .link-card h2 {
@@ -81,14 +84,17 @@ span {
   background-color: #cabdb2;
 }
 
-.btn {
+span {
   font-size: 1rem;
   text-align: center;
+  margin-top: 2rem;
   padding: .4em .75em .5em;
   color: #dcd4cd;
-  display: inline;
+  display: inline-block;
   border-radius: 3px;
-  background-color: #9a816d;
+  background-color: #785439;
+  font-weight: bold;
+  font-family: Dosis, sans-serif;
 }
 
 .link-card:hover .btn {
